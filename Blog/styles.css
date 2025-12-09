@@ -1,0 +1,50 @@
+body {
+    background-color: white; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.header_nav-menu, .header_icons {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.header_nav a{
+    text-decoration: none;
+}
+
+.header_icons a{
+    text-decoration: none;
+}
+
+.header_nav a:hover{
+    color: black;
+    animation: moveLine 2s ease ;
+}
+
+.header_icons a:hover {
+    color: black;
+}
+
+@keyframes moveLine{
+    from { 
+        display: inline-block;
+        border-top: 2px solid black;
+        
+    }
+    to   { 
+        display: inline-block;
+        border-top: 2px solid black;  
+        
+    }
+}
